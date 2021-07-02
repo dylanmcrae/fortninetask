@@ -13,7 +13,7 @@ const App = () => {
               rules={[
                 v => !!v || 'Field is required.',
                 v => v.length >= 3 || 'Data must have at least 3 characters.',
-                v => /^[a-zA-Z0-9]+$/.test(v) || 'Data can only have characters and numbers.'
+                v => /^[a-zA-Z0-9]+$/.test(v) || 'Data can only have charactera and numbera.'
               ]}
             />
             <hr className='my-8' />
