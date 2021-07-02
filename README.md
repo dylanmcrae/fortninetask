@@ -1,3 +1,9 @@
+HTML/CSS/JS/REACT Project that uses a dynamic input component to validate strings typed into it and provide immediate feedback to the user.
+
+Inside App.tsx, TWInput component takes an array of callback methods and props. Whenever something is entered, the string is looped through all the callback methods. If any of the callbacks return TRUE, validation has failed. 
+
+Also changed colour and icon based on state.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
