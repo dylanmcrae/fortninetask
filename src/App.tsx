@@ -6,7 +6,7 @@ const App = () => {
       <div className="container mx-auto px-5 md:px-0">
         <div className='p-5 md:py-12 md:px-12 bg-white rounded-md shadow-lg w-full md:max-w-sm lg:max-w-md xl:max-w-lg mx-auto'>
           <h2 className='font-bold text-xl text-gray-800'>Validation Form</h2>
-          <div className='text-gray-600'>Customly made vaidations</div>
+          <div className='text-gray-600'>Customly made validations</div>
           <hr className='my-3' />
           <form className='py-4'>
             <TWInput
